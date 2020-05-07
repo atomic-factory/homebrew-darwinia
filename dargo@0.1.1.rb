@@ -1,11 +1,11 @@
 # coding: utf-8
-class Dargo < Formula
+class DargoAT011 < Formula
   desc "The way to GO."
   homepage "https://github.com/darwinia-network/darwinia.go"
 
-  version "0.1.2"
-  url "https://github.com/darwinia-network/darwinia.go/releases/download/v0.1.2/dargo-osx.tar.gz"
-  sha256 "42571ee45abec151a39f4e276fc1fda81b3fa50da1cd5958aaf462a15f1f7ae1"
+  version "0.1.1"
+  url "https://github.com/darwinia-network/darwinia.go/releases/download/v0.1.1/dargo-osx.tar.gz"
+  sha256 "0633a18effb399b730980e86dff7a446b4800166a04b45e0d75e8dbf43b80dcf"
 
   def install
     libexec.install Dir["*"]
